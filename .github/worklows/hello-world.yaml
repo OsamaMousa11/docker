@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 job: 
   print-hello-world:
-     runs-on: unbuntu-lastest
+     runs-on: ubuntu-latest
      steps:
       -name: say hello
       run:echo  "hello world"
