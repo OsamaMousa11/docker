@@ -31,5 +31,5 @@ jobs:
         context: .
         file: ./Dockerfile  # Adjust this path if your Dockerfile is not in the root directory
         push: true
-        tags: osamamousa2003/repository:latest
+        tags: osamamousa2003/ayman_gfg:latest
         
