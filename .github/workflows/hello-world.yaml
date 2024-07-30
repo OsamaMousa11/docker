@@ -43,7 +43,14 @@ jobs:
           ${{ secrets.DOCKER_USERNAME }}/ayman_gfg:latest
           ${{ secrets.DOCKER_USERNAME }}/ayman_gfg:${{ github.sha }}
 
-    - name: Inspect Docker images
+    - name: Set up Docker Buildx
+      id: buildx
+      uses: docker/setup-buildx-action@v2
+      with:
+        version: latest
+        driver-opts: image=moby/buildkit:master
+    - name: Debug Buildx
       run: |
-        docker image ls
-        docker images
+        echo "Buildx driver: ${{ steps.buildx.outputs.driver }}"
+        echo "Buildx platforms: ${{ steps.buildx.outputs.platforms }}"
+          
