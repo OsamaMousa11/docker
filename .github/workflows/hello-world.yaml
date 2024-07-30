@@ -29,6 +29,6 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         context: .
-        file: ./Dockerfile
+        file: ./Dockerfile  # Adjust this path if your Dockerfile is not in the root directory
         push: true
         tags: username/repository:latest
