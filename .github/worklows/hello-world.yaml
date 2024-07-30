@@ -1,0 +1,11 @@
+name : hello world
+
+on:
+  workflow_dispatch:
+job: 
+  print-hello-world:
+     runs-on: unbuntu-lastest
+     steps:
+      -name: say hello
+      run:echo  "hello world"
+
