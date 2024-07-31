@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ayman_gfg:latest
+          tags: osamamousa2003/ayman_gfg:latest
