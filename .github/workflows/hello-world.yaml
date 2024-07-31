@@ -32,3 +32,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: osamamousa2003/ayman_gfg:latest
+          secrets: |
+            GIT_AUTH_TOKEN=${{ DOCKERHUB_TOKEN }}
