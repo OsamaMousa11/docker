@@ -31,5 +31,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: osamamousa2003/ayman_gfg:latest
+          
          
