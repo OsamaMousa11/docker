@@ -28,4 +28,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: user/aymangfg:latest
+          tags: osamamousa2003/aymangfg:latest
