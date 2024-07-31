@@ -33,5 +33,5 @@ jobs:
           push: true
           tags: |
             osamamousa2003/ayman_gfg:latest
-            osamamousa2003/ayman_gfg:${{ 5c57d0e}}
+          
          
