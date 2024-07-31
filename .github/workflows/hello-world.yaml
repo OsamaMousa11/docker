@@ -31,7 +31,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: docker buildx build -t your-image-name --username osamamousa2003 --password dckr_pat_is1w-Mwj7jTXgJlB8_hUybdCXB4 .
-
-          
+          tags: osamamousa2003/ayman_gfg:latest.
          
