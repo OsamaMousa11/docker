@@ -31,5 +31,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: osamamousa2003/ayman_gfg:latest.
+          tags: |
+            osamamousa2003/ayman_gfg:latest
+            osamamousa2003/ayman_gfg:${{ github.sha }}
          
